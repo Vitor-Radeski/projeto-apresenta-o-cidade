@@ -1,0 +1,28 @@
+body {
+  background: url(../imagens/bg2.jpg) no-repeat;
+  background-size: cover;
+}
+
+.pontos-turisticos {
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pontos-turisticos .ponto {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.pontos-turisticos .ponto .foto img {
+  width: 300px;
+}
+
+h1 {
+  font-weight: 500;
+}

@@ -1,0 +1,27 @@
+body {
+  background: url(../imagens/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.historia {
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+}
+
+.historia .texto {
+  width: 90vw;
+  text-align: justify;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.historia .texto h2 {
+  margin-bottom: 5px;
+}
+
+.historia .texto p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}

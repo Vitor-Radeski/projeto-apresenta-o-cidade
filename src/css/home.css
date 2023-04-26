@@ -1,0 +1,27 @@
+body {
+  background: url(../imagens/bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.informacoes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 86vh;
+}
+
+.informacoes .img1 {
+  height: 75%;
+}
+
+.informacoes .info {
+  width: 25%;
+}
+
+.informacoes .info h1 {
+  margin-bottom: 100px;
+}
+
+.informacoes .info p {
+  font-weight: 500;
+}
